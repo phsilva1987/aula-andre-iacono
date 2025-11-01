@@ -5,4 +5,9 @@
 
 ## Iniciar o Git HUB ##
 git init
-git 
+Precisa estar na pasta que sera usada no Git
+git status
+git log 
+git log --oneline
+
+## Stages GitHub ##

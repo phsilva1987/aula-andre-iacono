@@ -5,9 +5,39 @@
 
 ## Iniciar o Git HUB ##
 git init
-Precisa estar na pasta que sera usada no Git
+git add 
+git commit -m "Colocar o porque esta alterando o arquivo"
+git commit -a 
+git commit -m "Colocar o porque da alteracao" --amend
 git status
 git log 
 git log --oneline
+git log -p = log detalhado do arquivo
+git mv nome do arquivo atual  novo nome do arquivo
 
 ## Stages GitHub ##
+restore
+stage
+unstage
+
+## Git Reset ##
+git reset --soft e colocar o ponto "bfdd3aa"
+git reset --mixed e colocar o ponto "bfdd3aa"
+git reset --hard e colocar o ponto "bfdd3aa"
+
+
+## Git Alias ##
+git config --global alias.log1 "log --oneline"
+
+## Branch ##
+
+Como Criar Branch
+git branch Nome DA Branch
+Exemplo = git branch DEV
+
+Observacao: Voce pode criar quantas quiser
+
+Como mudar de Branch
+git switch DEV
+
+

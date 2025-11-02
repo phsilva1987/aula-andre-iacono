@@ -20,6 +20,15 @@ restore
 stage
 unstage
 
+## Removendo e restaurando Arquivos ##
+Removendo arquivos
+git rm hamburger.jpg
+
+Restaurando arquivos 
+git restore --staged hamburger.jpg
+git restore NOME DO ARQUIVO
+
+
 ## Git Reset ##
 git reset --soft e colocar o ponto "bfdd3aa"
 git reset --mixed e colocar o ponto "bfdd3aa"
@@ -40,4 +49,9 @@ Observacao: Voce pode criar quantas quiser
 Como mudar de Branch
 git switch DEV
 
+Como Fazer o Merge
+git merge -m "Merge Branch DEV para MAIN" DEV
 
+
+Como remover uma branch 
+git branch -d DEV

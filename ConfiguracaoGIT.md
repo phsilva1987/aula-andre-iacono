@@ -32,7 +32,7 @@ git restore NOME DO ARQUIVO
 ## Git Reset ##
 git reset --soft e colocar o ponto "bfdd3aa"
 git reset --mixed e colocar o ponto "bfdd3aa"
-git reset --hard e colocar o ponto "bfdd3aa"
+git reset --hard e colocar o ponto "bfdd3aa"s
 
 
 ## Git Alias ##

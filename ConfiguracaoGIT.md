@@ -39,7 +39,6 @@ git reset --hard e colocar o ponto "bfdd3aa"s
 git config --global alias.log1 "log --oneline"
 
 ## Branch ##
-
 Como Criar Branch
 git branch Nome DA Branch
 Exemplo = git branch DEV
